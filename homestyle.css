@@ -46,7 +46,9 @@ h2 {
     width: calc(50% - 10px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
-
+.quiz-card:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
 .quiz-card h3 {
     color: #1a73e8;
     margin-bottom: 10px;
@@ -55,14 +57,13 @@ h2 {
     cursor: pointer;
 }
 .quiz-card h3:hover{
-    color: red;
+    color: #483ed1;
 }
 
 .quiz-card p {
     font-size: 14px;
     line-height: 1.5;
 }
-
 /* Responsive */
 @media (max-width: 768px) {
     .quiz-card {
